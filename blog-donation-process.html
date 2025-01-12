@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section>
+        <div class="navbar-item" id="navbar-item">
+            <div class="navbar">
+                <marquee behavior="" direction="">Location: Kushtia, Khulna, Bangladesh</marquee>
+                <hr>
+                
+                <div class="nav container">
+                    <a class="logo" href="#home"> <span>Blood</span>Web</a>
+                    <ul id="sidemenu">
+                        <li><a href="index.html">HOME</a></li>
+                        <li id="dropdown-menue"><a  href="donar.html">DONAR</a></li>
+                        
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="profile.html">PROFILE</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <div class="nav-icon">
+                        <i id="search" class="fa-solid fa-magnifying-glass"onclick="opensearch()"></i>
+                        <button class="btn"><a href="sign up form.html">Login / SignUp</a></button>
+                    </div>
+                    <i class="fa-solid fa-list" onclick="openmenu()"></i>
+                </div>
+               
+            </div>
+            <div id="input-22">
+                <input id="input--1" type="text" placeholder="search">
+                <i class="fa-solid fa-xmark" id="icon-2-1" onclick="closesearch()" ></i>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog-headding">
+        <div class="containt-headding">
+            <h1>The Blood Donaton Process</h1>
+            <p>The blood donaton process from the time you arrive until the time you have takes <br> about an hour. The Donaton itself is only about 8-10 minutes on average </p>
+        </div>
+    </section>
+    <section id="medical-registration">
+        <div class="registration">
+            <h2>Registration and Medical Screening</h2>
+            <div class="registration-containt">
+               <div class="registration-image">
+                <img src="photos/registration-image.jpeg" alt="">
+               </div>
+               <div class="registration-text">
+                <ul>
+                    <li>Check in for your donation by scanning your ID or entering your information and be welcomed into the donation waiting area</li>
+                    <li>We’ll identify you using your ID, such as your driver’s license. Other acceptable forms of ID include: military ID, passport or immigration and naturalization card (green card)</li>
+                    <li>You’ll be asked to confirm your name, date of birth, address and other demographic information</li>
+                    <li>We’ll check your temperature, pulse, blood pressure and hemoglobin level.</li>
+                    <li>During a private and confidential interview, you’ll answer questions about your health history, places you’ve traveled, medications that may be in your system and questions to assess infectious disease risk.</li>
+                </ul>
+               </div>
+
+            </div>
+        </div>
+        
+    </section>
+
+    
+
+    <footer id="footer" style="background: rgb(255, 4, 4);">
+        <div class="footer-part" style="padding: 20px 30px; display: flex; justify-content: space-between; align-items: center;">
+            <div class="footer-1" style="width: 65%; display: flex; justify-content: space-between; flex-wrap: wrap;" >
+                <div class="f-headding" style="position: relative;">
+                    <h3 style="color: white; font-size: 26px; font-weight: 600; margin-bottom: 15px;">BloodWeb.com</h3>
+                    <p style="max-width: 350px; color: rgb(168, 166, 166); font-size: 16px; margin-bottom: 20px;">BloodWeb.com is an automated blood service that connects blood searchers with voluntary blood donors in a moment through SMS and website</p>
+                    
+                    
+                </div>
+                <div class="condition" >
+                    <h2 style="color: white; margin-bottom: 15px;">About Us</h2>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="donar.html">Donar</a></p>
+                    <p><a href="blog.html">Blog</a></p>
+                    <p><a href="profile.html">Profile</a></p>
+                    <p><a href="contact.html">Contact</a></p>
+                    <p><a href="about.html">About</a></p>
+                </div>
+                <div class="f-line"></div>
+                <div class="f-headding-item">
+                    <h2 style="color: white;">Contact</h2>
+                    <div style="align-items: start;">
+                        <div style="display: flex; align-items: center;  text-align: start; margin-top: 15px;  ">
+                            <i style="margin-right: 8px; color: white;" class="fa-solid fa-house"></i>
+                            <p style="color: white;">Kushtia, Khulna, Bangladesh</p>
+                        </div>
+                        <div style="display: flex; align-items: center;  text-align: start; margin-top: 15px;  ">
+                            <i style="margin-right: 8px; color: white;" class="fa-solid fa-phone-volume"></i>
+                            <p style="color: white;">xxxxxxxxxxx</p>
+                        </div>
+                        <div style="display: flex; align-items: center; text-align: start; margin-top: 15px;  ">
+                            <i style="margin-right: 8px; color: white;" class="fa-solid fa-envelope"></i>
+                            <p style="color: white;">example@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="footer-2" style="width: 30%; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                <div class="f-icon" style="display: flex; align-items: center;  ">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="f-icon" style="display: flex; align-items: center;  ">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="blog.js">
+
+    </script>
+</body>
+</html>

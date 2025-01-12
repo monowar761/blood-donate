@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+
+    <section>
+        <div class="navbar-item" id="navbar-item">
+            <div class="navbar">
+                <marquee behavior="" direction="">Location: Kushtia, Khulna, Bangladesh</marquee>
+                <hr>
+                
+                <div class="nav container">
+                    <a class="logo" href="#home"> <span>Blood</span>Web</a>
+                    <ul id="sidemenu">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="donar.html">DONAR</a></li>
+                        
+                        <li><a href="profile.html">PROFILE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <div class="nav-icon">
+                        <i id="search" class="fa-solid fa-magnifying-glass"onclick="opensearch()"></i>
+                        <button class="btn"><a href="sign up form.html">Login / SignUp</a></button>
+                    </div>
+                    <i class="fa-solid fa-list" onclick="openmenu()"></i>
+                </div>
+               
+            </div>
+            <div id="input-22">
+                <input id="input--1" type="text" placeholder="search">
+                <i class="fa-solid fa-xmark" id="icon-2-1" onclick="closesearch()" ></i>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="change">
+        <div class="change-item">
+            <div  class="change-image">
+                <img id="profile-pick" src="photos/monowar.png" alt="">
+                <label for="input-file"><i class="fa-solid fa-pencil"></i></label>
+                <input type="file" id="input-file">
+                <div class="image-texts">
+                    <h3>Your Name</h3>
+                    <p>example@gmail.com</p>
+                </div>
+            </div>
+            
+            <div class="change-containt">
+                <div class="name-item">
+                    <h3 >Name:</h3>
+                    <div class="entryarea">
+                        <input type="text" required>
+                        <div class="labelline">Enter your name</div>
+                    </div>
+                </div>
+                <div class="name-item">
+                    <h3 >Email:</h3>
+                    <div  class="entryarea">
+                        <input type="text" required>
+                        <div class="labelline">Enter your Email</div>
+                    </div>
+                </div>
+                <div class="name-item">
+                    <h3 >Phone number:</h3>
+                    <div  class="entryarea">
+                        <input type="text" required>
+                        <div class="labelline">Enter your phone number</div>
+                    </div>
+                </div>
+                <div class="name-item">
+                    <h3 >Blood group:</h3>
+                    <div  class="entryarea">
+                        <input type="text" required>
+                        <div class="labelline">Your Blood group</div>
+                    </div>
+                </div>
+                <div class="name-item">
+                    <h3 >location:</h3>
+                    <div class="entryarea">
+                        <input type="text" required>
+                        <div class="labelline">Enter your location</div>
+                    </div>
+                </div>
+                
+
+                
+            </div>
+            <button type="submit">Save Change</button>
+            
+        </div>
+        
+    </div>
+   
+    <script>
+        let profilePick = document.getElementById("profile-pick")
+        let inputfile = document.getElementById("input-file")
+        inputfile.onchange = function () {
+            profilePick.src = URL.createObjectURL(inputfile.files[0])
+        }
+
+
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu() {
+            sidemenu.style.bottom = "0"
+        }
+        function closemenu() {
+            sidemenu.style.bottom = "-800px"
+        }
+
+
+
+
+
+
+
+        const search = document.getElementById("input--1")
+        const iconopen = document.getElementById("icon-2-1")
+
+        function opensearch() {
+            search.style.display = "block"
+            iconopen.style.display = "block"
+        }
+        function closesearch() {
+            search.style.display = "none"
+            iconopen.style.display = "none"
+        } 
+    </script>
+</body>
+</html>

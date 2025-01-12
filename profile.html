@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+
+    <section>
+        <div class="navbar-item" id="navbar-item">
+            <div class="navbar">
+                <marquee behavior="" direction="">Location: Kushtia, Khulna, Bangladesh</marquee>
+                <hr>
+                
+                <div class="nav container">
+                    <a class="logo" href="#home"> <span>Blood</span>Web</a>
+                    <ul id="sidemenu">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="donar.html">DONAR</a></li>
+                        
+                        <li><a href="profile.html">PROFILE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <div class="nav-icon">
+                        <i id="search" class="fa-solid fa-magnifying-glass"onclick="opensearch()"></i>
+                        <button class="btn"><a href="sign up form.html">Login / SignUp</a></button>
+                    </div>
+                    <i class="fa-solid fa-list" onclick="openmenu()"></i>
+                </div>
+               
+            </div>
+            <div id="input-22">
+                <input id="input--1" type="text" placeholder="search">
+                <i class="fa-solid fa-xmark" id="icon-2-1" onclick="closesearch()" ></i>
+            </div>
+        </div>
+    </section>
+    
+    <div class="profile">
+        <div class="profile-item">
+            
+            <div class="profile-image">
+                <img src="photos/monowar.png" alt="">
+                <label for="uplodei-mage"><i class="fa-solid fa-pencil"></i></label>
+                <div class="image-texts">
+                    <h3>Your Name</h3>
+                    <p>example@gmail.com</p>
+                </div>
+            </div>
+            <input style="display: none;" type="file" accept="image/jpeg, image/png, image/jpg"  id="uplodei-mage">
+            
+            <div class="profile-containt">
+                <div class="name-item">
+                    <h3>Name</h3>
+                    <h4>Your Name</h4>
+                </div>
+
+                <div class="name-item">
+                    <h3>Email Account</h3>
+                    <h4>example@gmail.com</h4>
+                </div>
+                <div class="name-item">
+                    <h3>Phone Number</h3>
+                    <h4>01*******42</h4>
+                </div>
+                <div class="name-item">
+                    <h3>blood Group</h3>
+                    <h4>O+</h4>
+                </div>
+                <div class="name-item">
+                    <h3>Location</h3>
+                    <h4>Kushtia</h4>
+                </div>
+            </div>
+            <a href="edit.html">customize / edit</a>
+        </div>
+        
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+   
+    <script src="donar.js">
+        
+    </script>
+</body>
+</html>

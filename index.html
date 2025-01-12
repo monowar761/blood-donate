@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+    
+    <title>BloodWeb.com</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>         
+<body>
+    <section>
+        <div class="navbar-item" id="navbar-item">
+            <div class="navbar">
+                <marquee behavior="" direction="">Location: Kushtia, Khulna, Bangladesh</marquee>
+                <hr>
+                
+                <div class="nav container">
+                    <a class="logo" href="#home"> <span>Blood</span>Web</a>
+                    <ul id="sidemenu">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="donar.html">DONAR</a></li>
+                        
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="profile.html">PROFILE</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <div class="nav-icon">
+                        <i id="search" class="fa-solid fa-magnifying-glass"onclick="opensearch()"></i>
+                        <button class="btn"><a href="sign up form.html">Login / SignUp</a></button>
+                    </div>
+                    <i class="fa-solid fa-list" onclick="openmenu()"></i>
+                </div>
+               
+            </div>
+            <div id="input-1">
+                <input id="input" type="text" placeholder="search">
+                <i class="fa-solid fa-xmark" id="icon-2" onclick="closesearch()" ></i>
+            </div>
+        </div>
+    </section>
+    <!-- <section style="position: fixed; z-index: 100000; top: 150px; right: 0; background: rgb(214, 174, 174); width: 200px; height: 250px;">
+        <input type="text">
+        <input type="text">
+        <input type="text">
+    </section> -->
+    <section class="home">
+        
+        <i class="fa-solid fa-circle-chevron-left left"></i>
+        <div class="frame">
+            <div class="slider">
+                <div class="image">
+                    <div class="containt">
+                        <div class="image-item">
+                            
+                            <div class="info">
+                                <h2>
+                                    Donate blood and get real <span>Blessing</span>
+                                </h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, voluptatum. <br> Ex, rem minus vero facere rerum incidunt suscipit laudantium totam. Repellat corrupti in tempore saepe.</p>
+                                <button class="btn"><a href="donate-form.html">Donate</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="image">
+                    <div class="containt containt-1">
+                        <div class="image-item">
+                            
+                            <div class="info">
+                                <h2>
+                                    #Donate blood and save <span>Life</span>
+                                </h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, voluptatum. <br> Ex, rem minus vero facere rerum incidunt suscipit laudantium totam. Repellat corrupti in tempore saepe.</p>
+                                <button class="btn"><a href="donate-form.html">Donate</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="image">
+                    <div class="containt containt-1">
+                        <div class="image-item">
+                            
+                            <div class="info">
+                                <h2>
+                                    #Donate blood and save <span>Life</span>
+                                </h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, voluptatum. <br> Ex, rem minus vero facere rerum incidunt suscipit laudantium totam. Repellat corrupti in tempore saepe.</p>
+                                <button class="btn"><a href="donate-form.html">Donate</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="image">
+                    <div class="containt containt-1">
+                        <div class="image-item">
+                          
+                            <div class="info">
+                                <h2>
+                                    #Donate blood and save <span>Life</span>
+                                </h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, voluptatum. <br> Ex, rem minus vero facere rerum incidunt suscipit laudantium totam. Repellat corrupti in tempore saepe.</p>
+                                <button class="btn"><a href="#">Donate</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <!-- <img src="photos/hero.png" class="image">
+                <img src="photos/download.jpg" class="image"> -->
+                <!-- <img src="photos/hero.png" class="image">
+                <img src="photos/hero.png" class="image"> -->
+            </div>
+        </div>
+        <i class="fa-solid fa-circle-chevron-right right"></i>
+        
+
+        
+                <!-- <i class="fa-solid fa-circle-chevron-left left"></i>
+                <i class="fa-solid fa-circle-chevron-right right"></i> -->
+
+        
+    </section>
+    
+    <section>
+        <div class="services container2">
+            <h2>SERVICES</h2>
+            <div class="s-des">
+                <div class="scontaint" id="containt-01">
+                    <img src="photos/blood-store.jpeg" alt="">
+                    <h5>Blood Storage</h5>
+                    <p>We store the safest blood of all blood groups ehich you can use for any kind of treatments or in an emergency <br>. <br>. <br>. </p>
+                    <button class="btn button"><a href="services-1.html">ENROL NOW</a></button>
+                </div>
+                <div class="scontaint ">
+                    <img src="photos/blood-donation.jpeg" alt="">
+                    <h5>Blood Donation</h5>
+                    <p>Donation of blood is a selfless service that we do for mankind! We allow you to save a life by donating blood to the onse who red it <br>. <br>. <br>. </p>
+                    <button class="btn button"><a href="servicess-2.html">ENROL NOW</a></button>
+                </div>
+                <div class="scontaint">
+                    <img src="photos/red-blood.jpeg" alt="">
+                    <h5>Provision of Red Blood Cells</h5>
+                    <p>Lowering the count of red blood cells could be dangerous. we also provide red blood cells for various treatments. <br>. <br>.  </p>
+                    <button class="btn button"><a href="servicess-3.html">ENROL NOW</a></button>
+                </div>
+                <div class="scontaint" id="containt-01">
+                    <img src="photos/blood-grupping.jpeg" alt="">
+                    <h5>Blood Gruping</h5>
+                    <p>We store the safest blood of all blood groups ehich you can use for any kind of treatments or in an emergency <br>. <br>. <br>. </p>
+                    <button class="btn button"><a href="services-4.html">ENROL NOW</a></button>
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+    
+
+    </section>
+   
+    <section>
+        <div id="home-about">
+            <div class="about-containt">
+                <i class="fa-solid fa-droplet"></i>
+                <h1>What Is Blood ?</h1>
+                <p>There is no substitute for blood, and it cannot be manufactured in a lab. The only <br> source for patients in need of a transfusion is volunteer blood donations.</p>
+                <button class=""><a href="about.html">Learn more</a></button>
+            </div>
+        </div>
+    </section>
+    <section class="xyz"  >
+        <div class="all-item">
+            <div class="img-containt" >
+                <img src="photos/aboutc-image.webp" alt="">
+            </div>
+            <div class="text-containt" >
+                <h1>Is Donating Blood Important, Why?</h1>
+                <div class="xxx" >
+                    <li >You can save multiple lives</li>
+                    <p>Donating blood is not only an act of kindness but a way of paying it forward. There’s no telling when you or your loved one might need blood, and it’s good to know that the supply is there. By donating blood, you’re helping to ensure that blood is always available when needed.</p>
+                </div>
+                <div class="xxx" >
+                    <li style="padding-bottom: 8px; font-size: 20px;">Blood donations help patients recover faster</li>
+                    <p>People who receive blood transfusions tend to recover faster than those who don’t. This is because the transfused blood provides the necessary nutrients and oxygen to the body, which helps it recover from an ailment or injury. A single blood donation can make a difference in someone's life and help them on the road to full recovery.</p>
+                </div>
+                <div class="xxx" >
+                    <li style="padding-bottom: 8px; font-size: 20px;">You might need blood one day</li>
+                    <p>Giving blood can save multiple lives. That’s because your blood can be split into three components: red blood cells, plasma, and platelets. Each of these components can be separated and used to help different patients with various medical conditions. For instance, people with cancer require platelets to help them stop bleeding, while people who have undergone surgery may need red blood cells to replace the ones they have lost. Donating blood, therefore, helps in addressing the diverse medical needs of patients.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="xyz"  >
+        <div class="all-item">
+            <div class="text-containt" >
+                <h1>About Blood</h1>
+                <div class="xxx" >
+                    <li >You can save multiple lives</li>
+                    <p>Blood is a body fluid in the circulatory system of humans and other vertebrates that delivers necessary substances such as nutrients and oxygen to the cells, and transports metabolic waste products away from those same cells. Blood is composed of blood cells suspended in blood plasma.</p>
+                </div>
+                <div class="xxx" >
+                    <li >Classical Greek medicine</li>
+                    <p>Robin Fåhræus (a Swedish physician who devised the erythrocyte sedimentation rate) suggested that the Ancient Greek system of humorism, wherein the body was thought to contain four distinct bodily fluids (associated with different temperaments), were based upon the observation of blood clotting in a transparent container. When blood is drawn in a glass container and left undisturbed for about an hour, four different layers can be seen. A dark clot forms at the bottom (the "black bile"). Above the clot is a layer of red blood cells (the "blood"). Above this is a whitish layer of white blood cells (the "phlegm"). The top layer is clear yellow serum (the "yellow bile").[42][failed verification]
+
+                        In general, Greek thinkers believed that blood was made from food. Plato and Aristotle are two important sources of evidence for this view, but it dates back to Homer's Iliad.[43] Plato thinks that fire in our bellies transform food into blood.[44] Plato believes that the movements of air in the body as we exhale and inhale carry the fire as it transforms our food into blood.[45] Aristotle believed that food is concocted into blood in the heart and transformed into our body's matter</p>
+                </div>
+                <div class="xxx" >
+                    <li >Types</li>
+                    <p>The ABO blood group system was discovered in the year 1900 by Karl Landsteiner. Jan Janský is credited with the first classification of blood into the four types (A, B, AB, and O) in 1907, which remains in use today. In 1907 the first blood transfusion was performed that used the ABO system to predict compatibility.[47] The first non-direct transfusion was performed on 27 March 1914. The Rhesus factor was discovered in 1937.</p>
+                </div>
+                
+            </div>
+            <div class="img-containt" >
+                <img src="photos/blood.jpg" alt="">
+            </div>
+        </div> 
+    </section>
+
+    <!-- <section class="admin-panel" >
+        <h1>Our Admin Panel</h1>
+        <div style="margin: auto; display: grid; position: relative; place-items: center; height: 330px; width: 90%; overflow: hidden; " class="">
+            <div  class="admin ">
+                
+                <div class=" admin-content sli-containt-001">
+                    <div class=" card ">
+                        <div class="card-content card-001">
+                            <div class="card-image">
+                                <img src="photos/monowar.png" alt="">
+                            </div>
+                            <div class="media-icon">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                            <div class="name-profetion">
+                                <span class="name">Monowar hossain</span>
+                                <span class="profetion">Font-End</span>
+                                <span>Designeer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" card">
+                        <div class="card-content">
+                            <div class="card-image">
+                                <img src="photos/monowar.png" alt="">
+                            </div>
+                            <div class="media-icon">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                            <div class="name-profetion">
+                                <span class="name">MD. Shakib</span>
+                                <span class="profetion">Back-End</span>
+                                <span>Devoloer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" card">
+                        <div class="card-content">
+                            <div class="card-image">
+                                <img src="photos/monowar.png" alt="">
+                            </div>
+                            <div class="media-icon">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                            <div class="name-profetion">
+                                <span class="name">Monowar hossain</span>
+                                <span class="profetion">Font-End</span>
+                                <span>Designeer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" card">
+                        <div class="card-content">
+                            <div class="card-image">
+                                <img src="photos/monowar.png" alt="">
+                            </div>
+                            <div class="media-icon">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                            <div class="name-profetion">
+                                <span class="name">Monowar hossain</span>
+                                <span class="profetion">Font-End</span>
+                                <span>Designeer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" card">
+                        <div class="card-content">
+                            <div class="card-image">
+                                <img src="photos/monowar.png" alt="">
+                            </div>
+                            <div class="media-icon">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                            <div class="name-profetion">
+                                <span class="name">Monowar hossain</span>
+                                <span class="profetion">Font-End</span>
+                                <span>Designeer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" card">
+                        <div class="card-content">
+                            <div class="card-image">
+                                <img src="photos/monowar.png" alt="">
+                            </div>
+                            <div class="media-icon">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                            <div class="name-profetion">
+                                <span class="name">Monowar hossain</span>
+                                <span class="profetion">Font-End</span>
+                                <span>Designeer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" card card-001">
+                        <div class="card-content">
+                            <div class="card-image">
+                                <img src="photos/monowar.png" alt="">
+                            </div>
+                            <div class="media-icon">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                            <div class="name-profetion">
+                                <span class="name">Monowar hossain</span>
+                                <span class="profetion">Font-End</span>
+                                <span>Designeer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" card">
+                        <div class="card-content">
+                            <div class="card-image">
+                                <img src="photos/monowar.png" alt="">
+                            </div>
+                            <div class="media-icon">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                            <div class="name-profetion">
+                                <span class="name">MD. Shakib</span>
+                                <span class="profetion">Back-End</span>
+                                <span>Devoloer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" card">
+                        <div class="card-content">
+                            <div class="card-image">
+                                <img src="photos/monowar.png" alt="">
+                            </div>
+                            <div class="media-icon">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                            <div class="name-profetion">
+                                <span class="name">Monowar hossain</span>
+                                <span class="profetion">Font-End</span>
+                                <span>Designeer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" card">
+                        <div class="card-content">
+                            <div class="card-image">
+                                <img src="photos/monowar.png" alt="">
+                            </div>
+                            <div class="media-icon">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                            <div class="name-profetion">
+                                <span class="name">Monowar hossain</span>
+                                <span class="profetion">Font-End</span>
+                                <span>Designeer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" card">
+                        <div class="card-content">
+                            <div class="card-image">
+                                <img src="photos/monowar.png" alt="">
+                            </div>
+                            <div class="media-icon">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                            <div class="name-profetion">
+                                <span class="name">Monowar hossain</span>
+                                <span class="profetion">Font-End</span>
+                                <span>Designeer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" card">
+                        <div class="card-content">
+                            <div class="card-image">
+                                <img src="photos/monowar.png" alt="">
+                            </div>
+                            <div class="media-icon">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                            <div class="name-profetion">
+                                <span class="name">Monowar hossain</span>
+                                <span class="profetion">Font-End</span>
+                                <span>Designeer</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section> -->
+    <section class="container2">
+        <div id="network">
+            <h2>OUR NETWORK...</h2>
+            <div class="network-item">
+                <div class="network-containt">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h4>All Bangladesh</h4>
+                </div>
+                <div class="network-containt">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h4>All Blood Group</h4>
+                </div>
+                <div class="network-containt">
+                    <i class="fa-solid fa-users"></i>
+                    <h4>300+ Donors</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" style="background: rgb(255, 4, 4);">
+        <div class="footer-part" style="padding: 20px 30px; display: flex; justify-content: space-between; align-items: center;">
+            <div class="footer-1" style="width: 65%; display: flex; justify-content: space-between; flex-wrap: wrap;" >
+                <div class="f-headding" style="position: relative;">
+                    <h3 style="color: white; font-size: 26px; font-weight: 600; margin-bottom: 15px;">BloodWeb.com</h3>
+                    <p style="max-width: 350px; color: rgb(168, 166, 166); font-size: 16px; margin-bottom: 20px;">BloodWeb.com is an automated blood service that connects blood searchers with voluntary blood donors in a moment through SMS and website</p>
+                    
+                    
+                </div>
+                <div class="condition" >
+                    <h2 style="color: white; margin-bottom: 15px;">About Us</h2>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="donar.html">Donar</a></p>
+                    <p><a href="profile.html">Profile</a></p>
+                    <p><a href="blog.html">Blog</a></p>
+                    <p><a href="contact.html">Contact</a></p>
+                    <p><a href="about.html">About</a></p>
+                </div>
+                <div class="f-line"></div>
+                <div class="f-headding-item">
+                    <h2 style="color: white;">Contact</h2>
+                    <div style="align-items: start;">
+                        <div style="display: flex; align-items: center;  text-align: start; margin-top: 15px;  ">
+                            <i style="margin-right: 8px; color: white;" class="fa-solid fa-house"></i>
+                            <p style="color: white;">Kushtia, Khulna, Bangladesh</p>
+                        </div>
+                        <div style="display: flex; align-items: center;  text-align: start; margin-top: 15px;  ">
+                            <i style="margin-right: 8px; color: white;" class="fa-solid fa-phone-volume"></i>
+                            <p style="color: white;">xxxxxxxxxxx</p>
+                        </div>
+                        <div style="display: flex; align-items: center; text-align: start; margin-top: 15px;  ">
+                            <i style="margin-right: 8px; color: white;" class="fa-solid fa-envelope"></i>
+                            <p style="color: white;">example@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="footer-2" style="width: 30%; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                <div class="f-icon" style="display: flex; align-items: center;  ">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="f-icon" style="display: flex; align-items: center;  ">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+    <script src="./index.js"></script>
+</body>
+</html> 
